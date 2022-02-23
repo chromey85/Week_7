@@ -1,0 +1,11 @@
+--add --title "Spiderman" --actor "Toby McGuire"
+
+--add --title "Spiderman" --title1 "Superman" --actor "Toby McGuire" --actor1 "Hendy Cavil"
+
+--add --title "Spiderman" --title1 "Superman" --title2 "Batman" --actor "Toby McGuire" --actor1 "Hendy Cavil" --actor2 "Christian Bale"
+
+node src/app.js --update {title: "Spiderman"},{$set: "Superman"}
+
+node src/app.js --update ({title "Spiderman"},{$set "Superman"})
+
+node src/app.js --update --title: "Spiderman" --title: "Superman"
