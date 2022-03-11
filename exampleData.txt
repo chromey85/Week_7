@@ -1,5 +1,9 @@
 --add --title "Spiderman" --actor "Toby McGuire"
 
+--add --title "Superman" --actor "Hendy Cavil"
+
+--add --title "Batman" --actor "Christian Bale"
+
 --add --title "Spiderman" --title1 "Superman" --actor "Toby McGuire" --actor1 "Hendy Cavil"
 
 --add --title "Spiderman" --title1 "Superman" --title2 "Batman" --actor "Toby McGuire" --actor1 "Hendy Cavil" --actor2 "Christian Bale"
